@@ -5,7 +5,7 @@ To use remote cdp feature, first setup management interface and enable scp-serve
 #Setup python environment, 
 Install python-pip  #sudo apt-get install python-pip on Ubunut/Debian and #sudo yum install python-pip on RHEL/CentOS/SUSE. 
 After installation of pip, 
-#sudo pip install paramiko scpclient 
+\#sudo pip install paramiko scpclient 
 
 #How to do execute remote_cdp on your Linux/MacOS 
 1. add hosts on hosts.yaml 
@@ -20,7 +20,7 @@ and execute python bootflash:update_cdp.py via NXAPI
 update_cdp.py maintains user's description and connectivity information.
 For keeping user description  just add ":" after description.
 For example 
-#conf t;
+\#conf t;
 (config)#interfac eth1/1
 (config-if)#desc this_is_my_desc : 
 
